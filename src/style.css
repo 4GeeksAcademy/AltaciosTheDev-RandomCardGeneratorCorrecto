@@ -3,6 +3,7 @@
 body {
   background: lightgreen;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -37,4 +38,14 @@ body {
 .inverted {
   margin-left: auto;
   rotate: 180deg;
+}
+
+.spade,
+.club {
+  color: black;
+}
+
+.diamond,
+.heart {
+  color: red;
 }
