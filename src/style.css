@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+#myCard {
+  min-height: 500px;
+  width: 350px;
+  background: whitesmoke;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.number {
+  font-size: 10rem;
+  margin: 0;
+}
+
+.suit {
+  margin: 0;
+  font-size: 6rem;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.inverted {
+  margin-left: auto;
+  rotate: 180deg;
+}

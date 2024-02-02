@@ -6,6 +6,8 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+  //DOM variables
+  const left = document.querySelector("#myCard").childNodes[1];
+  const number = document.querySelector("#myCard").childNodes[3];
+  const right = document.querySelector("#myCard").childNodes[5];
 };
